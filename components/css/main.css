@@ -31,6 +31,9 @@ p {
     font-family: Arial, Helvetica, sans-serif
 }
 
+
+
+
 /*header*/
 
 
@@ -447,17 +450,21 @@ header {
 
 .button {
     color: black;
-    text-decoration: underline rgb(255, 0, 191).1rem;
     font-size: .9rem;
-    text-underline-offset: 2px;
     text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.button a{
-    color: black;
-    text-decoration: underline rgb(255, 0, 191).1rem;
-    font-size: .8rem;
-    text-underline-offset: 2px;
+
+.button a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline rgb(255, 0, 191).1rem;
+}
+
+.button a:hover {
+  background-color: black;
+  color: white;
+  padding-bottom: 3px;
+  text-decoration: black;
 }
