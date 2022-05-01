@@ -18,6 +18,10 @@ h1 {
     
 }
 
+.title {
+  color: rgb(255, 0, 191);
+}
+
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -179,6 +183,12 @@ header {
   text-decoration: black;
 }
 
+.header_icon {
+  height: 1em;
+  padding-right: px;
+  
+}
+
 
 
 /*navigation-bottom*/
@@ -255,11 +265,13 @@ header {
   padding-top: 50px;
   justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   text-align: center;
-  font-size: 1.3rem;
-  line-height: 25px;
+  font-size: 1.1rem;
+  line-height: 24px;
   letter-spacing: .5px;
 }
+
 
 .welcome-post__main {
   max-width: 40rem;
@@ -289,7 +301,7 @@ header {
 .icon__card {
   text-align: center;
   display:inline-block;
-  padding: .1px;
+  padding: 8px;
 
 }
 .iconcard__title{
@@ -297,7 +309,7 @@ header {
   display:inline-block;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-decoration: none;
   color: black;
   max-width: 140px;
@@ -312,7 +324,9 @@ header {
 /*recent-arrival*/
 
 .recentarrival {
-    padding: 50px;
+  max-width: 1010px;
+
+  padding: 50px;
   padding-left:0;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -435,11 +449,23 @@ header {
     width: 500px;
 }
 
+.eventcard__title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .eventcard__title a {
     text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+    
+  
 }
 
 .eventcard__title a:hover {
@@ -531,6 +557,25 @@ header {
   padding:.9rem 1.2rem;
 }
 
+/*banner2*/
+
+
+.banner2 {
+
+  display: block;
+  align-items: center;
+  justify-items: center;
+  margin: 20px;
+  float: center;
+  margin: 0;
+  object-fit: initial;
+  max-width: 100%;
+  min-width: 950px;
+  margin-top: 10px;
+    
+}
+  
+
 
 /*fundraising/member*/
 
@@ -542,7 +587,6 @@ header {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  border-bottom: 4px solid black;
 }
 
 .fundcard__icon {
@@ -617,14 +661,90 @@ header {
   text-decoration: black;
 }
 
+/*endpost*/
+
+.end-post {
+  border-top: 4px solid black;
+  background: var(--gray-light);
+  display: flex;
+  flex-shrink: 1;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 24px;
+  letter-spacing: .5px;
+}
+
+
+.end-post__main {
+ width: fit-content;
+ align-items: center;
+ 
+
+  
+}
+
+.end-post__nav {
+  min-width: 600px;
+  padding-right: none;
+  padding-left: 10px;
+  align-items: left;
+  
+}
+
+.iconcard__title2{
+  text-align: center;
+  display:inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: black;
+  max-width: 110px;
+}
+
+.icon__card2 {
+  text-align: left;
+  display:inline-block;
+  padding-inline-start: 10px;
+ 
+
+}
+
+.iconcard__image2{
+  display: block;
+  margin: auto;
+  width: 100px;
+}
+
+.end-post__main a{ 
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-decoration: underline rgb(255, 0, 191).1rem;
+  text-underline-offset: 2px;
+}
+
+.end-post__main a:hover {
+  background-color: black;
+  color: white;
+  padding-bottom: 3px;
+  text-decoration: black;
+}
+
+
 /*footer*/
 
 footer {
+  border-top: 4px solid black;;
   display: flex;
   justify-content: left;
   max-width: 1000px;
   min-width: 1000px;
-  padding-top: 5px; 
+  padding-top: 3px; 
   column-gap: 60px;
 }
 
@@ -641,7 +761,7 @@ footer {
 }
 
 li + li {
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 .footer__list a{
